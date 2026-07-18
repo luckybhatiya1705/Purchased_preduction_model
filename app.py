@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # Load the model
 # Using the exact filename provided: vaive_model.pkl
-MODEL_PATH = 'vaive_model.pkl'
+MODEL_PATH = 'naive_model.pkl'
 model = None
 
 try:
